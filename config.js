@@ -1,0 +1,10 @@
+// var dataUrl = 'data/ebt-ma.csv';
+var dataUrl = 'data/policebos.csv';
+var maxZoom = 18;
+var fieldSeparator = ',';
+var baseUrl = 'http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg';
+var baseAttribution = '';
+var subdomains = '1234';
+var clusterOptions = {showCoverageOnHover: false, maxClusterRadius: 50};
+var labelColumn = "Name";
+var opacity = 1.0;
